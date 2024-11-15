@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #222;
+    color: white;
+    font-family: cursive
+}
+
+form {
+    max-width: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+input[type=number] {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #111;
+    color: white;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+input[type=submit] {
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(203, 54, 0);
+    }
+}
+
+.grad {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(255, 0, 255);
+}
+
+.percent {
+    text-align: center;
+    color: rgb(47, 255, 68);
+}
